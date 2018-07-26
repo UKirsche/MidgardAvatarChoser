@@ -4,21 +4,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SetCharacterChosen : MonoBehaviour {
+public class SetAvatarChosen : MonoBehaviour {
 
 	enum CharacterTypen{
 		Harold,Kim, Shelly,Sven, Troll
 	}
 
 	public Slider slider;
-	private UMACharacterChoser umaChoser;
+	private UMAAvatarChoser umaChoser;
 	private string characterNameChosen;
 
 
 	void Start(){
 
 		//Lade UMA-Creator-Skript
-		umaChoser = GameObject.FindObjectOfType<UMACharacterChoser> ();
+		umaChoser = GameObject.FindObjectOfType<UMAAvatarChoser> ();
 	}
 
 	#region Lade UMSAsset

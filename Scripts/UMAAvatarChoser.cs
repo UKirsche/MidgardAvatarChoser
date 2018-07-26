@@ -4,7 +4,7 @@ using UnityEngine;
 using UMA;
 using System.IO;
 
-public class UMACharacterChoser : MonoBehaviour {
+public class UMAAvatarChoser : MonoBehaviour {
 
 	public UMAGeneratorBase generator;
 	public SlotLibrary slotLibrary;
